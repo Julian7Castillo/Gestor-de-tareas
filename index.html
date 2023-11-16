@@ -22,8 +22,10 @@
 
                 <label for="">Fecha</label><br>
                 <input type="date" id="fecha" required><br>
-
-                <button>Agregar</button><br>
+                <div class="centrado flex">
+                    <button class="boton-agragar" type="button" onclick="crearTarea()">Agregar</button><br>
+                    <button class="boton-eliminar" type="reset">Restablecer</button>
+                </div>
             </form>
         </article>
 
@@ -41,16 +43,19 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td><p id="t1"></p></td>
+                        <td><p id="d1"></p></td>
+                        <td><p id="f1"></p></td>
+                        <td><p id="e1"></p></td>
+                        <td><p id="con1"></p></td>
+                        <td><p id="eli1"></p></td>
                     </tr>
                 </tbody>
             </table>
         </section>
     </main>
+
+    <script type="text/javascript" src="js/tareas.js"></script>
+
 </body>
 </html>
