@@ -1,0 +1,44 @@
+/* generales */
+body{
+    font-size: 2rem;
+}
+main{
+    padding: 5rem 5rem;
+}
+
+table{
+    border: .1rem solid #000000;
+}
+
+td{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/* utilidades  */
+.centrado{
+    text-align: center;
+}
+
+input{
+    display: block;
+    width: 100%;
+}
+
+/* especificas */
+.contenedor{
+    display: flex;
+    /* justify-content:space-evenly; */
+}
+
+.creador-tareas{
+    border: .1rem solid #000000;
+    border-radius: 2rem;
+    background-color:darkgrey;
+    padding: 1rem 1rem;
+}
+
+/*.table-tareas{
+
+}*/
+
